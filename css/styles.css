@@ -1,0 +1,86 @@
+body, html {
+     height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    font-weight: 200;
+    font-size: 1.5rem;
+    color: #444;
+}
+
+.intro-left{
+    background: url("../img/1.jpg");
+    position: fixed;
+    left: 0;
+    width: 33.3333%;
+    height: 100%;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .intro-left{
+        height: 30vh;
+        margin-bottom: 0;
+        position: relative;
+        width: 100%;
+    }
+    
+}
+
+.avatar{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+.full-height {
+    height: 100%;
+}
+
+.quote {
+    float: right;
+}
+
+section {
+    margin: 5rem;
+    font-size: 1.2rem;
+}
+
+a {
+   color: #444;
+    text-decoration: none;
+}
+
+.footer{
+    background-color: #211C19;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.panel-right {
+    background-color: #F7D6D1;
+}
+
+.contact{
+    text-align: center;
+}
+
+.contact-icon-telegram{
+    position: relative;
+    right: 3.5em;
+    top: 2em;
+    padding: 0;
+    margin: 0;
+    width: 5em;
+}
+
+.contact-icon-email{
+    position: relative;
+    left: 2.5em;
+    width: 5em;
+    padding: 0;
+    margin: 0;
+    bottom: 3em;
+}
